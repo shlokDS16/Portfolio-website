@@ -1,0 +1,123 @@
+{
+  "site_settings": {
+    "hero": {
+      "eyebrow": "Technical Product Analyst",
+      "roles": ["Product", "AI & Automation", "Fintech"],
+      "name": ["Shlok", "Kumar", "Goenka"],
+      "lede": "From raw data to product decisions, through AI systems, analytics, and automation that turn ambiguous problems into measurable outcomes.",
+      "location": "Surat, India",
+      "school": "VIT Vellore '27",
+      "availability": "Open to product & data roles"
+    },
+    "stats": [
+      { "n": "03", "k": "Patents Filed" },
+      { "n": "02", "k": "Hackathon Wins" },
+      { "n": "8.84", "unit": "/10", "k": "CGPA · VIT" },
+      { "n": "CFA", "unit": " L1", "k": "Candidate '26" }
+    ],
+    "socials": {
+      "github": "https://github.com/shlokDS16",
+      "linkedin": "https://www.linkedin.com/in/shlokgoenka/",
+      "email": "shlokgoenka77@gmail.com",
+      "phone": "+91 93278 81059"
+    },
+    "contact": {
+      "email": "shlokgoenka77@gmail.com",
+      "phone": "+91 93278 81059",
+      "location": "Surat, Gujarat, India",
+      "formspree": "https://formspree.io/f/maqdglqw"
+    },
+    "resume": { "path": "resume/Shlok_Kumar_Goenka_Resume.pdf" }
+  },
+
+  "projects": [
+    {
+      "slug": "citadel", "name": "C.I.T.A.D.E.L.", "subtitle": "Civic AI Platform", "category": "Civic AI",
+      "description": "A dual-portal AI governance platform for Indian municipalities, running eight modules from document intelligence to live traffic detection on one authenticated, audited civic brain.",
+      "tech": ["React 18", "FastAPI", "YOLOv11", "Groq LLM", "Supabase", "Leaflet"],
+      "metrics": ["94.7% detection", "80%+ RAG confidence", "8 AI modules"],
+      "live_url": "https://citadel.shlokbuilds.in", "github_url": "https://github.com/shlokDS16/CITADEL",
+      "hackathon_win": true, "featured": true, "sort_order": 1,
+      "images": ["citadel.jpg", "citadel_g1.jpg", "citadel_g2.jpg"]
+    },
+    {
+      "slug": "aura-vision", "name": "Aura Vision", "subtitle": "Community Pulse Intelligence", "category": "Urban AI",
+      "description": "Processes live CCTV feeds with in-browser edge AI to detect threats and instantly cascade Telegram alerts and Twilio voice calls to authorities.",
+      "tech": ["React (Vite)", "FastAPI", "Puter.js", "Supabase", "Telegram Bot API", "Twilio Voice"],
+      "metrics": ["Edge AI", "Real-time alerts", "Twilio voice"],
+      "live_url": "https://aura-vision-3.vercel.app", "github_url": "https://github.com/shlokDS16/AURA",
+      "hackathon_win": false, "featured": true, "sort_order": 2,
+      "images": ["aura.jpg"]
+    },
+    {
+      "slug": "privacyguard", "name": "PrivacyGuard", "subtitle": "Privacy Preserving Analytics", "category": "Privacy",
+      "description": "Runs aggregate-only SQL on patient records and enforces k-anonymity and l-diversity with Ed25519 signed, hash-linked audit receipts.",
+      "tech": ["Next.js", "FastAPI", "PostgreSQL", "Ed25519", "Recharts", "TanStack Table"],
+      "metrics": ["violations 45 to 5", "64.2% utility", "sub 60ms P95"],
+      "live_url": "https://privacy-guard-vert.vercel.app", "github_url": "https://github.com/shlokDS16/Privacy-guard-",
+      "hackathon_win": false, "featured": true, "sort_order": 3,
+      "images": ["privacyguard.jpg"]
+    },
+    {
+      "slug": "ledgrai", "name": "LedgrAI", "subtitle": "SME Accounting Platform", "category": "Fintech",
+      "description": "AI powered double-entry accounting for Indian SMEs that scans a bill, extracts it for human review, and posts a GST-ready balanced voucher with a tamper-proof audit trail.",
+      "tech": ["Next.js 16", "React 19", "TypeScript", "Supabase", "Prisma 7", "Groq Llama 3.3", "Pinecone"],
+      "metrics": ["GST-ready", "Double-entry", "Audit trail"],
+      "live_url": "https://ledgrai.app", "github_url": null,
+      "hackathon_win": false, "featured": true, "sort_order": 4,
+      "images": ["ledgrai.jpg"]
+    },
+    {
+      "slug": "sickle-setu", "name": "SickleSetu", "subtitle": "Genetic Risk Network", "category": "Healthcare",
+      "description": "A sickle-cell screening platform whose family risk cascade turns one positive finding into consent-gated outreach to every first-degree relative.",
+      "tech": ["React (Vite)", "Node.js", "Google Gemini API"],
+      "metrics": ["Risk cascade", "Consent-gated", "Screening"],
+      "live_url": "https://sickle-setu-finall.vercel.app", "github_url": "https://github.com/shlokDS16/SICKLE-SETU",
+      "hackathon_win": false, "featured": true, "sort_order": 5,
+      "images": ["sickle.jpg"]
+    },
+    {
+      "slug": "disha", "name": "Disha", "subtitle": "Genetic Counselling Chatbot", "category": "Health AI",
+      "description": "A multilingual sickle-cell counselling chatbot answering in English, Hindi, and Marathi with RAG retrieval, OCR report summaries, and inheritance visualisation.",
+      "tech": ["FastAPI", "React", "Groq Llama 3.3 70B", "Qdrant", "bge-m3", "OCR.space", "Google Places API"],
+      "metrics": ["3 languages", "RAG + OCR", "Groq Llama 3.3"],
+      "live_url": "https://disha-chatbot-tawny.vercel.app", "github_url": "https://github.com/shlokDS16/disha-chatbot",
+      "hackathon_win": false, "featured": true, "sort_order": 6,
+      "images": []
+    }
+  ],
+
+  "patents": [
+    { "application_number": "202641026992", "title": "Hybrid Multi-Objective Cloud Task Scheduling System for Sustainable Computing Infrastructure", "abstract": "Multi-objective optimization for carbon-aware cloud workload distribution across global datacenters with automatic failover and SLA compliance.", "tags": ["Cloud", "Sustainability"], "status": "filed", "sort_order": 1 },
+    { "application_number": "202641054903", "title": "Hardware-Interfaced Spatio-Temporal Control Gating Apparatus for Agricultural Machinery", "abstract": "Cyber-physical control system integrating temporal gating with adaptive actuator enforcement for precision agricultural automation.", "tags": ["Agriculture", "Cyber-Physical"], "status": "filed", "sort_order": 2 },
+    { "application_number": "202641054904", "title": "Quantum-Assisted Longitudinal State Transition Engine for Counterfactual Progression Modeling", "abstract": "Quantum-inspired engine for longitudinal state transition analysis and counterfactual scenario generation in dynamic systems.", "tags": ["Quantum", "Modeling"], "status": "filed", "sort_order": 3 }
+  ],
+
+  "certifications": [
+    { "title": "Cyber Forensics Hackathon Winner Certificate", "issuer": "36-Hour Cyber Forensics Hack-a-Thon", "issued_year": "2026", "image": "cert_hack.jpg", "sort_order": 1 },
+    { "title": "Oracle Certified Generative AI Professional", "issuer": "Oracle University", "issued_year": "2026", "valid_until": "2028", "image": null, "sort_order": 2 },
+    { "title": "CFA Level I Candidate", "issuer": "CFA Institute", "issued_year": "2026", "note": "exam Aug 2026", "image": null, "sort_order": 3 },
+    { "title": "Quantum Computing (VAC)", "issuer": "VIT Vellore", "issued_year": "ongoing", "image": null, "sort_order": 4 },
+    { "title": "100 Days of Code, Python Pro Bootcamp", "issuer": "Udemy, Dr. Angela Yu", "image": null, "sort_order": 5 },
+    { "title": "Complete Full-Stack Web Development Bootcamp", "issuer": "Udemy, Dr. Angela Yu", "image": null, "sort_order": 6 }
+  ],
+
+  "achievements": [
+    { "title": "Hackathon Winner", "subtitle": "36-Hour Cyber Forensics Hack-a-Thon (Project ARGUS)", "type": "award", "period": "2026", "sort_order": 1 },
+    { "title": "Hackathon Winner", "subtitle": "AI Hackathon 2026, Intelligent Innovation Challenge (CITADEL)", "type": "award", "period": "2026", "sort_order": 2 },
+    { "title": "Academic Excellence", "subtitle": "CGPA 8.84/10, top percentile of the Data Science cohort", "type": "award", "period": "2023 to 2027", "sort_order": 3 },
+    { "title": "Research Recognition", "subtitle": "3 patents filed with the Indian Patent Office", "type": "award", "period": "2024 to 2026", "sort_order": 4 },
+    { "title": "Board Member, IoT in Everyday Life Club", "subtitle": "VIT Vellore, 100+ member community", "type": "extracurricular", "details": ["Co-organized Smart Campus Challenge (80+ participants)", "Led IoT Meets AI workshop series"], "sort_order": 5 },
+    { "title": "Mentorship & Community", "subtitle": "Freshman Orientation + digital literacy drive", "type": "extracurricular", "details": ["Mentored 30+ incoming students", "Taught programming to underprivileged high-school students in Vellore"], "sort_order": 6 }
+  ],
+
+  "skill_groups": [
+    { "name": "Data Analysis & Statistics", "skills": ["SQL", "Python (Pandas, NumPy)", "Scikit-learn", "Statistical modeling", "Hypothesis testing", "Root cause analysis", "KPI definition"], "sort_order": 1 },
+    { "name": "Reporting, BI & Visualization", "skills": ["Power BI", "Tableau", "Advanced Excel", "Matplotlib", "Seaborn", "Recharts"], "sort_order": 2 },
+    { "name": "Databases & Data Engineering", "skills": ["PostgreSQL", "MySQL", "MongoDB", "SQLAlchemy", "Supabase (pgvector)", "ETL pipelines"], "sort_order": 3 },
+    { "name": "AI, ML & Generative AI", "skills": ["LLMs", "RAG systems", "LangChain", "HuggingFace", "PyTorch", "TensorFlow", "spaCy", "YOLOv8", "DeepSORT"], "sort_order": 4 },
+    { "name": "AI Automation & Orchestration", "skills": ["n8n", "Make (Integromat)", "AI agents", "Agentic systems", "Prompt engineering", "Gemini API", "Ollama"], "sort_order": 5 },
+    { "name": "Software Engineering", "skills": ["Python", "Java", "C", "R", "FastAPI", "Flask", "Next.js", "Docker", "Git", "REST APIs"], "sort_order": 6 },
+    { "name": "Product & Business", "skills": ["Requirements analysis", "Product metrics", "Data-driven decisions", "Stakeholder communication", "Agile", "CFA Level I"], "sort_order": 7 }
+  ]
+}
