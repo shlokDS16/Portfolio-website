@@ -41,7 +41,7 @@ export default function LoginPage() {
   return (
     <div className="admin-auth">
       <div className="card">
-        <h1>SHLOK.SYS</h1>
+        <h1>Shlok Goenka</h1>
         <p>Admin console — authorized access only.</p>
         <form onSubmit={onSubmit}>
           <div className="a-field">

@@ -1,7 +1,5 @@
-import Link from "next/link";
 import type { ReactNode } from "react";
-import { AdminNav } from "./AdminNav";
-import { signOut } from "@/app/admin/actions";
+import { AdminSidebar } from "./AdminSidebar";
 
 export function AdminShell({
   title,
@@ -18,22 +16,7 @@ export function AdminShell({
 }) {
   return (
     <div className="admin">
-      <aside className="admin-side">
-        <div className="admin-brand">
-          SHLOK.SYS <span className="v">/ admin</span>
-        </div>
-        <AdminNav counts={counts} />
-        <div className="admin-side-foot">
-          <Link href="/" target="_blank">
-            View site ↗
-          </Link>
-          <form action={signOut}>
-            <button className="a-btn ghost sm" type="submit">
-              Sign out
-            </button>
-          </form>
-        </div>
-      </aside>
+      <AdminSidebar counts={counts} />
       <div className="admin-main">
         <header className="admin-head">
           <div>
